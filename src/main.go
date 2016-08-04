@@ -6,4 +6,5 @@ import (
 
 func main() {
   http.HandleFunc("/login/", loginHandler)
+  http.HandleFunc("/admin/", adminHandler)
 }
